@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "RobertAriano"
+    },
+    "motivations": {
+      "@value": "Why I want to be a DRep has to do with the opportunity to be held more liable to vote on proposals within the Ecosystem. Becoming a DRep would allow me to speak on behalf of others who are not as involved in day to day with Cardano. Personal experiences I would like to share is how Cardano has helped bring my work to life in every aspect, on a personal level as well as professionally. As a professional business owner I can be trusted as a DRep due to responsibilities I have encountered. Also, I am involved heavily with Project Catalyst and have been a community reviewer for three funds. This shows I am willing to get involved and make a difference for the Cardano community."
+    },
+    "objectives": {
+      "@value": "As a DRep, I believe that embracing the privileges set forth in relation to the Cardano Constitution will help Cardano become an underlying technology in every sector of business and personal life. What I would like to achieve as a DRep is the opportunity to use our product to get more people involved in the Cardano Ecosystem. Due to the Cardano Development Portal being a major part of the Cardano Ecosystem, I believe this tool can be viewed every day by millions of users. My goal is to make the Cardano Portal visible in relation to tasks performed through its use. Not only does it get folks interested in development on our ecosystem, but it also shows them how to get involved in governance within Cardano"
+    },
+    "paymentAddress": {
+      "@value": "addr1q9x3cjtuy424rlrqzchxxlpcgf5c9h0utyqtaljjwed77ld2yj7eh5t424fy8v7vs6rg6an5qnt37yt46tmjf6y4z06sw75nyq"
+    },
+    "qualifications": {
+      "@value": "I am a Cardano Blockchain Certified Associate and am very much interested in peer-reviewed research within Cardano and IOHK. I spent years performing research at the PhD level and am happy to assist others who would like to learn more about Peer-review. These qualifications are relevant for my role as a DRep because it shows I have the ability to finish what I have started. Voting on others behalf's is important to the individual, as well as the community."
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Facebook Business Page - R & A Soccer Sports Equipment, Inc."
+        },
+        "uri": {
+          "@value": "https://www.facebook.com/p/R-A-Soccer-Sports-Equipment-Inc-100066791825561/"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Linkedin Profile"
+        },
+        "uri": {
+          "@value": "https://www.linkedin.com/in/robert-ariano-a27515291/"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "Certification of Completion - Cardano Academy"
+        },
+        "uri": {
+          "@value": "https://bafybeicxtp5k4axx2cqpssnxqra4a6cwh6spy44jrmla3mjdyg5jtu7vzi.ipfs.dweb.link/"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "Demonstration Video on Company Product"
+        },
+        "uri": {
+          "@value": "https://drive.google.com/file/d/1sFDei4L-riwmdL6cwwexoBLsBDfPEsG5/view?ts=6707ee8d"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "Business Profile"
+        },
+        "uri": {
+          "@value": "https://www.google.com/search?q=r+%26+a+soccer+sports+equipment+inc&sca_esv=23c9c213a4a41286&sxsrf=ADLYWIIB-DP2WCC_o28s4-UHQIJMRDvVfA%3A1728750875404&source=hp&ei=G6UKZ5rjFeKq0PEPg5Dd4AI&iflsig=AL9hbdgAAAAAZwqzK_T_HGnRRfV2dNt2I89Iz09JaElA&gs_ssp=eJwFwdEOQCAUANB5tfmH64FXt2KVT_AX3MrYKJXp851TN8M-MOZEZM93CqzmDouSgpAr4SzXTI56xkJaG5xGJR0ZuW60tBF6WCF5IhshBR9zAvu8R7jsneG46QdfkBsi&oq=r+&gs_lp=Egdnd3Mtd2l6GgIYAiICciAqAggAMg0QLhjHARgnGI4FGK8BMgQQIxgnMgQQIxgnMgQQIxgnMgsQLhiABBixAxiDATIFEAAYgAQyEBAAGIAEGLEDGEMYgwEYigUyChAAGIAEGEMYigUyDhAAGIAEGLEDGIMBGIoFMgUQABiABEjfDFAAWGBwAHgAkAEAmAFuoAHVAaoBAzAuMrgBAcgBAPgBAZgCAqAC5wHCAgsQABiABBiRAhiKBcICCBAAGIAEGLEDwgIdEC4YgAQYsQMY0QMY0gMYgwEY8wUYxwEYqAMYiwPCAg4QABiABBixAxiDARiLA8ICGhAuGIAEGLEDGNEDGNIDGIMBGMcBGKgDGIsDwgILEAAYgAQY8wUYiwOYAwCSBwMwLjKgB6Yh&sclient=gws-wiz"
+        }
+      }
+    ]
+  }
+}
